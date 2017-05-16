@@ -11,3 +11,10 @@
 #badges + a + ul {
   margin: 10px 0 0;
 }
+
+#menus + div ul {
+  position: static;
+  display: block;
+  margin-bottom: 5px;
+  clear: left;
+}
