@@ -7,3 +7,7 @@
   width:100%;
   display: inline-block;
 }
+
+#badges + a + ul {
+  margin: 10px 0 0;
+}
