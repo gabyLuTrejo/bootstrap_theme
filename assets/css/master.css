@@ -1,4 +1,4 @@
-
+/***********Responsive***********/
   @media (max-width: 992px){
     .label {
       font-size: 60%;
@@ -48,7 +48,7 @@
       font-size: 5px;
     }
   }
-
+/***********Estilos Agregados***********/
 .thumbnail {
   width:80%;
 }
