@@ -50,12 +50,12 @@
     <section class="container">
       <div class="jumbotron">
         <h1>Theme Example</h1>
-        <p class="lead">This is a template showcasing the optional theme stylesheet
+        <p class="lead justifyText¿'2'">This is a template showcasing the optional theme stylesheet
           included in Bootstrap. Use it as a starting point to create something
           more unique by building on or modifying it.
         </p>
       </div>
-      <section> <!-- Sección de Botones -->
+      <section class="row"> <!-- Sección de Botones -->
         <h1 class="page-header" id="buttons">Buttons</h1>
         <p> <!-- Botones grandes -->
           <button type="button" class="btn btn-default btn-lg">Default</button>
@@ -94,144 +94,148 @@
           <button type="button" class="btn btn-link btn-xs">Link</button>
         </p>
       </section>
-      <section> <!-- Sección de Tablas -->
+      <section class="row"> <!-- Sección de Tablas -->
         <h1 class="page-header" id="tables">Tables</h1>
-        <table class="table"> <!-- Tabla Normal -->
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-bordered"> <!-- Tabla con Bordes -->
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row" rowspan="2">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td colspan="2">Larry the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-striped"> <!-- Tabla Striped -->
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-        <table class="table table-condensed"> <!-- Tabla Condensada -->
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="col-sm-6 col-xs-12">
+          <table class="table"> <!-- Tabla Normal -->
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-bordered"> <!-- Tabla con Bordes -->
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" rowspan="2">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-6 col-xs-12">
+          <table class="table table-striped"> <!-- Tabla Striped -->
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table table-condensed"> <!-- Tabla Condensada -->
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
-      <section> <!-- Sección de Thumbnails -->
+      <section class="row"> <!-- Sección de Thumbnails -->
         <h1 class="page-header" id="thumbnails">Thumbnails</h1>
         <div class="row">
           <div class="col-md-3 col-xs-6">
             <a href="#" class="thumbnail">
-              <img alt="100%x200" data-src="holder.js/100%x200" src="https://dummyimage.com/200x200/ede8ed/9496a3" data-holder-rendered="true">
+              <img class="img-responsive" alt="100%x200" data-src="holder.js/100%x200" src="https://dummyimage.com/200x200/ede8ed/9496a3" data-holder-rendered="true">
             </a>
           </div>
         </div>
       </section>
-      <section> <!-- Sección de Labels -->
+      <section class="row"> <!-- Sección de Labels -->
         <h1 class="page-header" id="Labels">Labels</h1>
         <h1>
           <span class="label label-default">Default</span>
@@ -290,7 +294,7 @@
           <span class="label label-danger">Danger</span>
         </p>
       </section>
-      <section> <!-- Sección de Badges -->
+      <section class="row"> <!-- Sección de Badges -->
         <h1 class="page-header" id="badges">Badges</h1>
         <a href="#">Inbox <span class="badge">42</span></a>
         <ul class="nav nav-pills" role="tablist">
@@ -299,7 +303,7 @@
           <li role="presentation"><a href="#">Messages <span class="badge">3</span></a></li>
         </ul>
       </section>
-      <section> <!-- Sección de Dropdown menus -->
+      <section class="row"> <!-- Sección de Dropdown menus -->
         <h1 class="page-header" id="menus">Dropdown menus</h1>
         <div class="dropdown clearfix">
           <ul class="dropdown-menu">
@@ -311,7 +315,7 @@
           </ul>
         </div>
       </section>
-      <section> <!-- Sección de Navs -->
+      <section class="row"> <!-- Sección de Navs -->
         <h1 class="page-header" id="navs">Navs</h1>
         <ul class="nav nav-tabs">
           <li role="presentation" class="active"><a href="#">Home</a></li>
@@ -324,7 +328,7 @@
           <li role="presentation"><a href="#">Messages</a></li>
         </ul>
       </section>
-      <section> <!-- Sección de Navbars -->
+      <section class="row"> <!-- Sección de Navbars -->
         <h1 class="page-header" id="navbars">Navbars</h1>
         <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -395,7 +399,7 @@
           </div><!-- /.container-fluid -->
         </nav>
       </section>
-      <section> <!-- Sección de Alertas -->
+      <section class="row"> <!-- Sección de Alertas -->
         <h1 class="page-header" id="alerts">Alerts</h1>
         <div class="alert alert-success" role="alert">
           <strong>Well done!</strong>
@@ -414,7 +418,7 @@
           Change a few things up and try submitting again.
         </div>
       </section>
-      <section> <!-- Sección de Brarras de progreso -->
+      <section class="row"> <!-- Sección de Brarras de progreso -->
         <h1 class="page-header" id="progBars">Progress bars</h1>
         <div class="progress">
           <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
@@ -458,16 +462,16 @@
           </div>
         </div>
       </section>
-      <section> <!-- Sección de Grupos de listas -->
+      <section class="row"> <!-- Sección de Grupos de listas -->
         <h1 class="page-header" id="listGroup">List groups</h1>
-        <ul class="list-group">
+        <ul class="list-group col-sm-4 col-xs-12">
           <li class="list-group-item">Cras justo odio</li>
           <li class="list-group-item">Dapibus ac facilisis in</li>
           <li class="list-group-item">Morbi leo risus</li>
           <li class="list-group-item">Porta ac consectetur ac</li>
           <li class="list-group-item">Vestibulum at eros</li>
         </ul>
-        <div class="list-group">
+        <div class="list-group col-sm-4 col-xs-12">
           <a href="#" class="list-group-item active">
             Cras justo odio
           </a>
@@ -476,7 +480,7 @@
           <a href="#" class="list-group-item">Porta ac consectetur ac</a>
           <a href="#" class="list-group-item">Vestibulum at eros</a>
         </div>
-        <div class="list-group">
+        <div class="list-group col-sm-4 col-xs-12">
           <a href="#" class="list-group-item active">
             <h4 class="list-group-item-heading">List group item heading</h4>
             <p class="list-group-item-text">Donec id elit non mi porta gravida
@@ -497,60 +501,66 @@
           </a>
         </div>
       </section>
-      <section> <!-- Sección de Paneles -->
+      <section class="row"> <!-- Sección de Paneles -->
         <h1 class="page-header" id="panels">Panels</h1>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+        <div class="col-sm-4 col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
           </div>
-          <div class="panel-body">
-            Panel content
-          </div>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
-          </div>
-        </div>
-        <div class="panel panel-success">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
           </div>
         </div>
-        <div class="panel panel-info">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+        <div class="col-sm-4 col-xs-12">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
           </div>
-          <div class="panel-body">
-            Panel content
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
           </div>
         </div>
-        <div class="panel panel-warning">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
+        <div class="col-sm-4 col-xs-12">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
           </div>
-          <div class="panel-body">
-            Panel content
-          </div>
-        </div>
-        <div class="panel panel-danger">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
+          <div class="panel panel-danger">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel title</h3>
+            </div>
+            <div class="panel-body">
+              Panel content
+            </div>
           </div>
         </div>
       </section>
-      <section> <!-- Sección de Wells -->
+      <section class="row"> <!-- Sección de Wells -->
         <h1 class="page-header" id="wells">Wels</h1>
-        <div class="well">
+        <div class="well justifyText">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -562,7 +572,7 @@
           voluptatem.
         </div>
       </section>
-      <section> <!-- Sección de Carrusel -->
+      <section class="row"> <!-- Sección de Carrusel -->
         <h1 class="page-header" id="carouselImg">Carousel</h1>
         <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
           <ol class="carousel-indicators">
