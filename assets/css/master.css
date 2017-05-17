@@ -18,3 +18,7 @@
   margin-bottom: 5px;
   clear: left;
 }
+
+.carousel-inner .item img {
+  width: 100%;
+}
